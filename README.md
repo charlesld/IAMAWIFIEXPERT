@@ -14,3 +14,8 @@
 ![频谱空口利用Fenix](https://github.com/charlesld/IAMAWIFIEXPERT/blob/master/pic/specturm.jpg)
 
 ![无线环境抓取](https://github.com/charlesld/IAMAWIFIEXPERT/blob/master/pic/wireless%20env.jpg)
+
+
+
+## 频谱分析
+利用 grafana 与 influxdb 生成时序的 频点错误与空口利用率的状态
