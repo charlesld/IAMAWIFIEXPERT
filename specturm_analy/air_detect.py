@@ -3,7 +3,7 @@
 # Created by Charles on 2018/3/30.
 
 """
-telnet 获取空口利用率
+空口利用率，running on 树莓派
 
 """
 import json
