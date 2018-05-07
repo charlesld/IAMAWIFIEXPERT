@@ -18,4 +18,5 @@
 
 
 ## 频谱分析
+[air_detect](https://github.com/charlesld/IAMAWIFIEXPERT/blob/master/specturm_analy/air_detect.py)
 利用 grafana 与 influxdb 生成时序的 频点错误与空口利用率的状态
