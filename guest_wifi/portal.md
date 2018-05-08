@@ -1,37 +1,3 @@
-# IAMAWIFIEXPERT
-多年WIFI积累，留当变更行业后的一种回忆
-
-
-
-## 先贴些酷酷的图
-
-
-> 空口错误采集
-
-<img src="https://github.com/charlesld/IAMAWIFIEXPERT/blob/master/pic/channel%20err.jpg" width=500 height=250 />
-
-> 站点勘测
-
-<img src="https://github.com/charlesld/IAMAWIFIEXPERT/blob/master/pic/site%20suvery.jpg" width=500 height=250 />
-
-
-> 频谱空口利用率
-
-<img src="https://github.com/charlesld/IAMAWIFIEXPERT/blob/master/pic/specturm.jpg" width=500 height=250 />
-
-> 无线环境抓取
-
-<img src="https://github.com/charlesld/IAMAWIFIEXPERT/blob/master/pic/wireless%20env.jpg" width=500 height=250 />
-
-
-
-
-## 频谱分析
-[air_detect](https://github.com/charlesld/IAMAWIFIEXPERT/blob/master/specturm_analy/air_detect.py)
-利用树莓派 与 AP  打造基于 grafana 与 influxdb 生成时序的 频点错误与空口利用率的状态
-
-
-
 ## wifi portal
 听说你去过阿里巴巴，那你一定连过`Alibaba-guest`。  
 想不想把`Alibaba-guest`带回家？给家里来做客的客人也用一用，顺带炫一下技术实力？（zhuangbility）  
