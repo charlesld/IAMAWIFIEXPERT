@@ -60,7 +60,7 @@ device_hotspot_path=/
 
 7. 这样来客人了，不用分享家里wifi的密码，指导客人连接`Alibaba-guest`就可以上网了，当然要配置用户名和密码，只要修改一下代码就好，简单的可以使用文件，逼格高的就用mysql
 
-8. last if you wanna buy a AP , mail to me pppoe@139.com
+8. last if you wanna own one AP , mail to me pppoe@139.com
 
 > 做完效果怎么样  (这是电脑版，手机版后面做)
 <img src="https://github.com/charlesld/IAMAWIFIEXPERT/blob/master/pic/aliguest_wifi_pc.jpg" width=500 height=250 />
