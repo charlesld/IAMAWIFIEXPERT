@@ -1,15 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- saved from url=(0260)http://portal.wifi.alibaba-inc.com/login?ap_mac=14%3A1F%3ABA%3A8A%3AC3%3A40&sign_method=hmac_sha256&ssid=alibaba-guest&sta_mac=08%3AD4%3A0C%3A06%3ABD%3A0A&timestamp=1525743029752&version=1.0&sign=ADBC853A2B1FF267B521D9F38CDC21C61ADF15E062C35C24DFB9D6850F3EBFF8 -->
-<html xmlns="http://www.w3.org/1999/xhtml"><script type="text/javascript">Object.defineProperty(window.navigator, 'userAgent', { get: function(){ return 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25'; } });Object.defineProperty(window.navigator, 'vendor', { get: function(){ return 'Apple, Inc.'; } });Object.defineProperty(window.navigator, 'platform', { get: function(){ return 'iPhone'; } });</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
     
-    
-    
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <title>登录</title>
-	<link href="./登录phone_files/msg-box.css" rel="stylesheet">
-    <link href="./登录phone_files/mobile-login-style.css" rel="stylesheet">
+	<link href="/portal/static/0.1.6/style/msg-box.css" rel="stylesheet"/>
+    <link href="/portal/static/0.1.6/style/mobile-login-style.css" rel="stylesheet"/>
         <script>
-
+        var globalVars = {
+            publicKey: 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlVUrgtMu40ULane3HX3qNVCytkZOPFo5fXsRoV1dRQnBBEtuBe8yzXZhb55Mnxk9wDdLUoQNBIStboCxoD/4Mtcm8yeJl2+o40F+V3iEaBBbRSwU/0K1rTSEk+37a/9mIp07Ln5oXYZJ7tep9wbDh62tp3e20KpQ6yv5akE0GE/NgdTQ3yYFMRUCcke62EZMnDEOH2V02oMlGm8uslxRI9r/HIro0DIq0unLNGVpbthWsz0Zb0MyWNnVsJXzWmSNlUcAGfz47isJFRkn20BX0/oUW/BGg+KVhDrz3fU/HEhGtmyE6Uafnkhn0Z4vfv1I6E3W9iAaY1c84S9GubYy0wIDAQAB',
+            csrfToken: 'CSxK87wriDgr',
+            pageUuid: '438ddff3-7d3a-4f28-ab46-1a564fb8250f',
+        };
         var require = {
                         baseUrl: '/portal/static/0.1.6/js/',
             paths: {
@@ -62,9 +69,9 @@
             }
         }
     </script>
-    <script data-main="portal.login/mobileindex.js" src="./登录phone_files/require.min.js.下载"></script>
-<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="./登录phone_files/jquery.min.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="portal.common/msgbox" src="./登录phone_files/msgbox.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="portal.common/error" src="./登录phone_files/error.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="portal.login/mobileindex" src="./登录phone_files/mobileindex.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="i18n" src="./登录phone_files/i18n.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="portal.common/loginhandlers" src="./登录phone_files/loginhandlers.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" src="./登录phone_files/bootstrap.min.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="portal.common/urlutil" src="./登录phone_files/urlutil.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="portal.common/localeutil" src="./登录phone_files/localeutil.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jsencrypt" src="./登录phone_files/jsencrypt.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nls/locale" src="./登录phone_files/locale.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nls/zh-cn/locale" src="./登录phone_files/locale.js(1).下载"></script></head>
-<body><script async="" src="./登录phone_files/index.js.下载" id="tb-beacon-aplus" exparams=""></script>
+    <script data-main="portal.login/mobileindex.js" src="/portal/static/assets/requirejs/2.2.0/require.min.js"></script>
+</head>
+<body><script async src="//g.alicdn.com/platform/common/s/1.1/monitor/index.js" id="tb-beacon-aplus" exparams=""></script>
     
 
 <div class="mobile-form-container">
@@ -106,6 +113,5 @@
 		</form>
 	</div>
 </div>
-
-
-</body></html>
+</body>
+</html>

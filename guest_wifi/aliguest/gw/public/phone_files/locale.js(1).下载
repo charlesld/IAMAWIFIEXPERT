@@ -1,0 +1,48 @@
+define({
+    'oppositeLang': "EN",
+    "changeLocaleNotSupport": "您使用的浏览器不支持切换语言",
+    'noCaptchaLocale': 'zh_CN',
+
+    "visitorsLogin": "访客登录",
+    "phoneNo": "手机号 :",
+    "captcha": "验证码 :",
+    "getCaptcha": "获取验证码",
+    "login": "登录",
+    "alibabaGroup": "阿里巴巴集团",
+    "infoPlatform": "信息平台事业部",
+    "welcomeBack": "欢迎再次光临阿里巴巴",
+    /* for message box */
+    "success": "成功",
+    "error": "错误",
+    "warning": "警告",
+    /* js errors */
+    "sendCaptchaSuccess": "发送成功",
+    "loginSuccess": "登录成功",
+    "pleaseEnter11PhoneNo": "请输入11位手机号码",
+    "incorrectPhoneNo": "输入的手机号码不正确",
+    "pleaseEnterCaptcha": "请输入验证码",
+    "pleaseSlideToVerify": '请滑动滑块',
+    /* error.js */
+    "error100": "错误",
+    "error101": "发送验证码太频繁",
+    "error102": "登录太频繁",
+    "error103": "内部错误103",
+    "error104": "内部错误104",
+    "error105": "验证码错误",
+    "error106": "页面超时",
+    "error408": "请求超时",
+    "error500": "内部错误",
+    /* wirelesscast */
+    "guestWirelessProjector": "访客无线投屏",
+    "guestWirelessProjectorSubtitle": "演讲／会议／投屏，两步搞定",
+    "downloadNow": "立即下载",
+    "stepOne": "第一步",
+    "downloadAndInstall": "下载并安装",
+    "selectCorrespondingSystem": "选择对应系统， 下载安装包并双击安装",
+    "macDownload": "Mac版下载",
+    "winDownload": "Win版下载",
+    "stepTwo": "第二步",
+    "enterProjCode": "输入投屏码",
+    "openSoftware": "打开软件，输入电视屏幕上的无线投屏码， 点击 [开始投屏]"
+
+});
