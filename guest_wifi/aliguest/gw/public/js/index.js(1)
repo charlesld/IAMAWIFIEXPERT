@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>登录</title>
+	<link href="/portal/static/0.1.6/style/msg-box.css" rel="stylesheet"/>
+    <link href="/portal/static/0.1.6/style/style.css" rel="stylesheet"/>
+        <script>
+
+        var require = {
+                        baseUrl: '/portal/static/0.1.6/js/',
+            paths: {
+                'jquery': '/static/js/jquery.min',
+                'bootstrap': '/static/js/bootstrap.min',
+                'css': '/static/css',
+                'jsencrypt': '/static/js/jsencrypt',
+                'i18n': '/static/js/i18n',
+                'onepagescroll': '/portal/static/assets/onepage-scroll/1.3.1/jquery.onepage-scroll.min'
+            },
+            shim: {
+                bootstrap: {
+                    deps: ['jquery']
+                },
+                jsencrypt: {
+                    exports: 'JSEncrypt'
+                },
+	            onepagescroll: {
+                    deps: ['jquery']
+                }
+            },
+//            config: {
+//                i18n: {
+//                    locale: 'zh-cn'
+//                }
+//            },
+            deps: ['jquery', 'bootstrap', '/static/js/msgbox', '/static/js/error'],
+            callback: function($, bootstrap, msgBox, error) {
+                $.ajaxSetup({
+                    timeout: 5000,
+                    error: function( jqXHR, textStatus, errorThrown) {
+                        if ('timeout' === textStatus) {
+                            msgBox.error({content: error['408']});
+                        } else {
+                            msgBox.error({content: error['500']});
+                        }
+                    }
+                })
+            }
+        };
+        if (localStorage) {
+            var locale = localStorage.getItem('locale');
+            if (locale) {
+                require.config = {
+                    i18n: {
+                        locale: locale
+                    },
+                }
+
+            }
+        }
+    </script>
+    <script data-main="/static/js/index.js" src="/static/js/require.min.js"></script>
+</head>
+<body><script async src="//g.alicdn.com/platform/common/s/1.1/monitor/index.js" id="tb-beacon-aplus" exparams=""></script>
+    <div class="page-head">
+    <div class="page-head-container">
+        <div class="page-head-brand">
+            <span class="site-logo"></span>
+            <div class="site-brand visitors-login-placeholder">
+
+            </div>
+            <div class="header-change-locale">
+                <a href="javascript:;" class="opposite-lang-placeholder" id="change-locale"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page-content">
+    <div class="form-container">
+        <div class="form-title visitors-login-placeholder">
+
+        </div>
+        <div class="form-content" id="normal-form-container">
+            <form method="post">
+                <div class="input-container">
+                    <label class="input-label phone-no-placeholder"></label>
+                    <input type="text" id="input-phone-no"/>
+                </div>
+                <div class="input-container">
+                    <label class="input-label captcha-placeholder"></label>
+                    <input type="password" class="captcha-input" id="input-captcha" name="PtPwd"/>
+                    <button type="button" class="get-captcha-btn" id="btn-send-sm"><span class="get-captcha-placeholder"></span><span id="count-down-container"></span></button>
+                </div>
+                <div class="submit-container">
+                    <button type="button" class="submit-btn login-placeholder" id="btn-login"></button>
+                </div>
+            </form>
+        </div>
+        <div id="one-click-login-form-container" style="display: none">
+            <div class="welcome-label"><span class="phone-placeholder"></span> <span class="welcome-back-placeholder"></span></div>
+            <div class="submit-container">
+                <button type="button" class="submit-btn login-placeholder" id="btn-direct-login"></button>
+            </div>
+        </div>
+        <div style="text-align: center;border-top: 1px solid #eeeeee;margin: 0 12px;">
+            <p>内部员工下载阿里郎</p>
+            <a style="text-decoration: none" target="_blank" href="http://guestprojection.oss-cn-hangzhou.aliyuncs.com/alilang/alilang.exe">win版</a>
+            <a style="text-decoration: none" target="_blank" href="http://guestprojection.oss-cn-hangzhou.aliyuncs.com/alilang/AliLang.dmg">mac版</a>
+        </div>
+    </div>
+</div>
+<div class="page-foot">
+    <div class="copyright">
+        <p>©1999-2101 <span class="alibaba-group-placeholder"></span> Powered by <img src="http://guestprojection.oss-cn-hangzhou.aliyuncs.com/webresource%2Finfo_plat_logo.png" alt="" width="22" height="12"><span class="infomation-platform-placeholder"></span></p>
+    </div>
+</div>
+</body>
+</html>
