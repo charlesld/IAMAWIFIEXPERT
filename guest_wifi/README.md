@@ -65,6 +65,6 @@ device_hotspot_path=/
 > 做完效果怎么样  (这是电脑版，手机版后面做)
 <img src="https://github.com/charlesld/IAMAWIFIEXPERT/blob/master/pic/aliguest_wifi_pc.jpg" width=500 height=250 />
 
-[代码位置](guest_wifi/aliguest/gw/ce.py)
+[代码位置](https://github.com/charlesld/IAMAWIFIEXPERT/blob/master/guest_wifi/aliguest/gw/ce.py)
 
 
